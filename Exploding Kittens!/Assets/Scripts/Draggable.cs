@@ -6,6 +6,8 @@ using UnityEngine.EventSystems;
 
 public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+
+    // I might want to change this to [serialized] private
     public Transform parentToReturnTo = null;
     public Transform placeholderParent = null;
 
